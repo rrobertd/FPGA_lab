@@ -17,6 +17,7 @@ reg [2:0]i;	// vector used to sweep logic values of inputs
 // Now this for loop uses a 3bit vector
 // I want to reduce it to the 2bit 
 // but encoutered some weird behavior of the simulation
+// as I learned I can't use 2 bit since the condition with <= will never be fulfilled
 
 initial begin
 for(i = 3'b000; i < 3'b100; i = i + 1'b1) begin

@@ -7,7 +7,7 @@ reg a, b;	// inputs
 wire s, c;	// outputs
 reg [2:0]i;	// vector used to sweep logic values of inputs
 
- Half_adder UUT(
+ half_adder UUT(
  .a(a),
  .b(b),
  .s(s),

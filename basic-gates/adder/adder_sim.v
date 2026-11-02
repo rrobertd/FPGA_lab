@@ -9,9 +9,9 @@ wire s, c_o;
 adder UUT (
 .a(a),
 .b(b),
-.s(s),
-.c_o(c_o),
-.c_i(c_i)
+.s(s),  // sum (output)
+.c_o(c_o),  // carry in
+.c_i(c_i)  // carry out
 );
 
 integer i;
